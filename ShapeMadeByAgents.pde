@@ -1,8 +1,8 @@
 float[] x;
 float[] y;
-int shapeRes = 5;
+int shapeRes = 1000;
 int centerX, centerY;
-float startRadius = 300;
+float startRadius = 0;
 float[] seeds;
 float increase = 0.8;
 float angle;
@@ -15,7 +15,7 @@ void setup() {
   background(255);
   pixelDensity(displayDensity());
   noFill();
-  stroke(0, 5);
+  stroke(0, 20);
 
   centerX = width /2;
   centerY = height/2;
@@ -52,8 +52,14 @@ void draw() {
 
   for (int i = 0; i < shapeRes; i++) {
     float length = noise(seeds[i])* deltaLength*2 -deltaLength;
-    x[i] += cos(angle*i) * length;
-    y[i] += sin(angle*i) * length;
+    x[i] -= cos(angle*i) * length;
+    y[i] -= sin(angle*i) * length;
     seeds[i] += increase;
+  }
+}
+
+void keyPressed(){
+  if(key == 's'){
+    save("data/NormalDirection/" + frameCount + ".png");
   }
 }
