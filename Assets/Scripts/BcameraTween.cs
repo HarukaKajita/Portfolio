@@ -6,10 +6,10 @@ public class BcameraTween : MonoBehaviour {
 
 	private int pointsNum = 10;
 	public Vector3[] movePoints;
-	[SerializeField] private Transform target;
+	[SerializeField] private Transform _target;
 
 
-	void OnEnable(){
+	private void OnEnable(){
 
 		movePoints = new Vector3[pointsNum];
 		for(int i = 0; i < pointsNum-1; i++){
@@ -27,6 +27,6 @@ public class BcameraTween : MonoBehaviour {
 	}
 	
 	void Update () {
-		transform.LookAt (target);
+		transform.LookAt (_target);
 	}
 }

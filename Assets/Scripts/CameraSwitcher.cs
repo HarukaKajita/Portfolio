@@ -48,7 +48,7 @@ public class CameraSwitcher : MonoBehaviour {
 		cameras [2].gameObject.SetActive (true);
 
 		Vector3[] movePoints = cameras [2].GetComponent<CcameraTween> ().movePoints;
-		cameras[2].transform.DOLocalPath (movePoints,45f,PathType.CatmullRom,PathMode.Full3D,1000,Color.blue).OnComplete(() => {SwitchToA();});
+		cameras[2].transform.DOLocalPath (movePoints,20f,PathType.CatmullRom,PathMode.Full3D,1000,Color.blue).OnComplete(() => {SwitchToA();});
 	}
 }
 	
