@@ -106,7 +106,7 @@ VRChat用に作成したShaderエフェクト
 <br>
 
 
-![](https://github.com/HarukaKajita/Portfolio/blob/TransitionEffect/images/CompareTransitionEffect.gif)
+![](https://github.com/HarukaKajita/Portfolio/blob/TransitionEffect/Images/CompareTransitionEffect.gif)
 
 <br>
 <br>
