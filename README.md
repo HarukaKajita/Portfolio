@@ -39,8 +39,7 @@ UnityでScreenSpace-OverlayのCanvasに対して最前面にパーティクル�
 
 <br>
 
-動画のデータがなくなってしまったのでサンプルは以下のリンクからご覧ください。
-https://twitter.com/kajitaj63b3/status/1002902660163371009
+![](https://github.com/HarukaKajita/Portfolio/blob/FromtmostEffectOnOverlayScreen/Images/FrontmostEffect.gif)
 
 <br>
 <br>
