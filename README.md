@@ -94,3 +94,19 @@ https://github.com/HarukaKajita/Portfolio/tree/PolygonDistortion
 
 <br>
 <br>
+
+# TransitionEffect Branch
+
+<br>
+https://github.com/HarukaKajita/Portfolio/tree/TransitionEffect
+
+VRChat用に作成したShaderエフェクト
+現状頂点シェーダを使用したバージョンとフラグメントシェーダを使用したバージョンがあります。
+今後エミッションの追加やエフェクトの色の変更をできるように改善します。
+<br>
+
+
+![](https://github.com/HarukaKajita/Portfolio/blob/TransitionEffect/images/CompareTransitionEffect)
+
+<br>
+<br>
